@@ -1,0 +1,145 @@
+*{
+    margin:0;
+}
+
+#header{
+    width:100%;
+    height: 7vh;
+    background: linear-gradient(to right, #8a0a6a, #0a3fba);
+    position:fixed;
+    display:grid;
+    justify-content:right;
+    align-items:center;
+    overflow: hidden;
+}
+
+#nav-bar ul{
+    display:flex;  
+}
+
+#nav-bar li{
+    list-style:none;
+}
+
+.nav-link{
+    color:#000;
+    background-color:#fff;
+    border-radius:1.6vh;
+    text-decoration:none;
+    margin-right: 6vh;
+    padding:1vh;
+    font-size:2.5vh;
+}
+
+#homeLink{
+    margin-right: 150vh;
+}
+
+@media screen and (max-width: 600px) {
+    #homeLink {
+      margin-right: 30vh;
+    }
+}
+
+#searchByName, #searchByPrice {
+    text-align: center;
+    font-size: 2.5vh;
+}
+
+#searchByName input[type='text'], #searchByPrice input[type='number'] {
+    padding: 1vh;
+    border:1px solid #000;
+    border-radius:1.7vh;
+}
+
+#searchByName input[type='submit'], #searchByPrice input[type='submit'], .navigate button{
+    font-size:2vh;
+    border:1px solid #fff;
+    padding:1.1vh;
+    margin:1.4vh;
+    border-color: #000;
+    border-radius:1.7vh;
+}
+
+#space{
+      height:20vh;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover{
+    color: #8a0a6a;
+}
+
+.btnOrder, .btnAddToCart {
+    display:block;
+    font-size:2vh;
+    font-weight:bold;
+    border:1px solid #fff;
+    padding:1.1vh;
+    margin:1.4vh;
+    border-color: #000;
+    border-radius:1.7vh;
+}
+
+.btnOrder button, .btnAddToCart button {
+    border: none;
+    outline: none;
+    background-color: #fff;
+}
+
+#Offers {
+    display: flex;
+    flex-wrap: wrap;
+    margin:4vh;
+}
+
+#Offers h2{
+    background-color:#D3D3D3;
+}
+
+.item {
+    margin: 1.5vh;
+    flex-grow: 1;
+    height: 13vh;
+    border:3px solid #D3D3D3;
+    border-radius:1.5vh;
+    height:100%;
+    text-align: center;
+  }
+
+.item img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.item input {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigate {
+    text-align: center;
+    margin-bottom: 2vh;
+}
+
+.navigate p {
+    display: inline;
+    font: 3vh;
+}
+
+footer{
+    background-color:#000;
+    position: fixed; 
+    bottom: 0;
+    width:100%;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+}

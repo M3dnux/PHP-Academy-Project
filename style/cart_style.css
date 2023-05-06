@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+  }
+  
+  #header {
+    width: 100%;
+    height: 7vh;
+    background: linear-gradient(to right, #8a0a6a, #0a3fba);
+    position: fixed;
+    display: grid;
+    justify-content: right;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  #nav-bar ul {
+    display: flex;
+  }
+  
+  #nav-bar li {
+    list-style: none;
+  }
+  
+  .nav-link {
+    color: #000;
+    background-color: #fff;
+    border-radius: 1.6vh;
+    text-decoration: none;
+    margin-right: 6vh;
+    padding: 1vh;
+    font-size: 2.5vh;
+  }
+
+  #homeLink{
+    margin-right: 168vh;
+}
+
+@media screen and (max-width: 600px) {
+    #homeLink {
+      margin-right: 30vh;
+    }
+}
+  
+  #space {
+    height: 20vh;
+  }
+  
+  .btnUpdate,
+  .btnCheckOut {
+    display: block;
+    font-size: 2vh;
+    font-weight: bold;
+    border: 1px solid #fff;
+    padding: 1.1vh;
+    margin: 1.4vh;
+    border-color: #000;
+    border-radius: 1.7vh;
+    background-color: #d3d3d3;
+  }
+  
+  .btnCheckOut {
+    width: 99%;
+    font-size: 2.5vh;
+  }
+
+  .btnUpdate button {
+    border: none;
+    outline: none;
+    background-color: #d3d3d3;
+  }
+  
+  #Offer {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4vh;
+    justify-content: center;
+  }
+  
+  #Offer h2 {
+    background-color: #d3d3d3;
+  }
+
+  #Offer h3 {
+    font-size: 3vh;
+    color: #CC5500;
+    margin-bottom: 2vh;
+  }
+  
+  .item {
+    margin: 1.5vh;
+    flex-grow: 1;
+    border: 3px solid #d3d3d3;
+    border-radius: 1.5vh;
+    text-align: center;
+    overflow: hidden;
+  }
+  
+  .item form {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 1vh;
+    border: none;
+  }
+  
+  td,
+  th {
+    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 1.5vh;
+    text-align: center;
+  }
+  
+  .item img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+.item input {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navigate {
+    text-align: center;
+}
+
+.navigate p {
+    display: inline;
+    font: 3vh;
+}
+
+footer{
+    background-color:#000;
+    position: fixed; 
+    bottom: 0;
+    width:100%;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+}
