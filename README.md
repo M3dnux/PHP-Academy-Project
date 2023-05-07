@@ -34,13 +34,11 @@ Clone the project
 ```bash
   git clone https://github.com/M3dnux/PHP-Academy-Project.git
 ```
+## SQL Script
 
-  ### CREATE DATABASE
-
+```bash
   CREATE DATABASE php_project_db;
-
-  ### CREATE TABLES
-
+  
   CREATE TABLE tUser (
     login VARCHAR(15),
     password VARCHAR(20) NOT NULL,
@@ -73,9 +71,7 @@ Clone the project
     ,CONSTRAINT FK_tcart_tUser FOREIGN KEY (user_id) REFERENCES tUser(login)
     ,CONSTRAINT FK_tcart_tProduct FOREIGN KEY (product_id) REFERENCES tProduct(id)
   );
-
-  ### FILL IN SOME DETAILS
-
+  
   INSERT INTO tProduct VALUES("PGMO0001", "Hyperx Pulsefire Haste", "The HyperX Pulsefire Haste is built for elite gamers looking to gain every fraction of a second possible in their quest to be the best.", "Hyperx", "Black", 4, 400);
 
   INSERT INTO tProduct VALUES("PGHS0001", "JBL Quantum 400", "The JBL Quantum 400, like other headsets in JBL's Quantum lineup, is marketed as giving gamers a competitive advantage with its spatial sound capabilities and sound quality.", "JBL", "Black", 17, 107.50);
@@ -102,14 +98,7 @@ Clone the project
 
   INSERT INTO tUser VALUES("admin", "admin", "Saleh Ben Mousa", 11147825, 2000-5-1, "saleh115az@gmail.com", 0);
   INSERT INTO tUser VALUES("M3dnux", "M3dnux", "Mohamed Ali Walha", 11145879, 2000-8-25, "mohamed2000az@gmail.com", 1);
- 
-Start the PHP development server
-
-```bash
-  php -S localhost:8000 -t public
 ```
-
-Open http://localhost:8000 in your web browser.
 
 ## Feedback
 
