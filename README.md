@@ -1,9 +1,45 @@
-# PHP-Academy-Project
-This GitHub repository is an academic project that demonstrates the development of a web application using HTML, CSS, JavaScript, and PHP. The app is designed to manage products and enable users to view and add items to their cart. The project incorporates MySQL to store and manage product information.
+# Product Listing Site - A University project
 
-## DataBase name : php_project_db
+This Project is a web app that allows users to view, order, and manage products. Built with HTML, CSS, JavaScript, PHP, and MySQL using the MVC architecture, this app provides an easy-to-use interface for both customers and admins.
 
-### CREATE TABLES
+## Features
+
+- Product listing: Users can view a list of available products with their names and prices.
+- Product details: Users can click on a product to view its detailed description, including its designation, brand, color, and image.
+- Product ordering: Users can order a product if its quantity in the database is greater than 0. They can add multiple products to their cart, which will stay saved even if they log out. They can also order all products in the shopping cart.
+- Product filtering: Users can filter products on the home page by name or by price.
+- Admin authentication: Admin users can authenticate themselves to access the admin dashboard.
+- Product management: Admin users can add, delete, and update products in the database, including their ID, designation, description, brand, color, quantity, price, and image.
+
+## Who is it for ?
+
+Product Listing Site is perfect for people who prefer online shopping and want a hassle-free way to browse, search, and order products. It is also suitable for businesses looking for an efficient way to manage their products online.
+
+## Screenshots
+
+![Log In Page](image/login.png)
+
+![Sign Up Page](image/signup.png)
+
+![Home Page](image/home.png)
+
+![Shopping Cart](image/cart.png)
+
+![Admin Dashboard](image/admin.png)
+
+## Run Locally
+
+  Clone the project
+
+  ```bash
+  	git clone https://github.com/<username>/<repository-name>.git
+  ```
+
+  ### CREATE DATABASE
+
+  CREATE DATABASE php_project_db;
+
+  ### CREATE TABLES
 
 CREATE TABLE tUser (
     login VARCHAR(15),
@@ -66,3 +102,15 @@ INSERT INTO tProduct VALUES("PGMP0003", "SteelSeries QCK Gaming Surface", "The Q
 
 INSERT INTO tUser VALUES("admin", "admin", "Saleh Ben Mousa", 11147825, 2000-5-1, "saleh115az@gmail.com", 0);
 INSERT INTO tUser VALUES("M3dnux", "M3dnux", "Mohamed Ali Walha", 11145879, 2000-8-25, "mohamed2000az@gmail.com", 1);
+
+  Start the PHP development server
+
+  ```bash
+  php -S localhost:8000 -t public
+  ```
+
+  Open http://localhost:8000 in your web browser.
+
+## Feedback
+
+If you have any feedback or issues, please reach out to me at walha_med.ali@outlook.fr.
