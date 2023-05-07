@@ -62,9 +62,7 @@ Clone the project
   CREATE TABLE tcart (
     user_id VARCHAR(15),
     product_id VARCHAR(12) NOT NULL,
-    designation VARCHAR(30) NOT NULL,
-    quantity INT NOT NULL,
-    price FLOAT NOT NULL
+    quantity INT NOT NULL
     ,CONSTRAINT PK_tcart PRIMARY KEY (user_id, product_id)
     ,CONSTRAINT FK_tcart_tUser FOREIGN KEY (user_id) REFERENCES tUser(login)
     ,CONSTRAINT FK_tcart_tProduct FOREIGN KEY (product_id) REFERENCES tProduct(id)
