@@ -28,7 +28,7 @@ This Project is a web app that allows users to view, order, and manage products.
 Clone the project
 
 ```bash
-  git clone https://github.com/M3dnux/PHP-Academy-Project.git
+  git clone https://github.com/M3dnux/Product-Listing-Site.git
 ```
 ## SQL Script
 
