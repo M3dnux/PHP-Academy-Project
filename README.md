@@ -32,7 +32,7 @@ Product Listing Site is perfect for people who prefer online shopping and want a
 Clone the project
 
 ```bash
-  git clone https://github.com/<username>/<repository-name>.git
+  git clone https://github.com/M3dnux/PHP-Academy-Project.git
 ```
 
   ### CREATE DATABASE
