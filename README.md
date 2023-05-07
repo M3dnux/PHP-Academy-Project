@@ -11,10 +11,6 @@ This Project is a web app that allows users to view, order, and manage products.
 - Admin authentication: Admin users can authenticate themselves to access the admin dashboard.
 - Product management: Admin users can add, delete, and update products in the database, including their ID, designation, description, brand, color, quantity, price, and image.
 
-## Who is it for ?
-
-Product Listing Site is perfect for people who prefer online shopping and want a hassle-free way to browse, search, and order products. It is also suitable for businesses looking for an efficient way to manage their products online.
-
 ## Screenshots
 
 ![Log In Page](image/login.png)
