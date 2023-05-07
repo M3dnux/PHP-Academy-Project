@@ -35,6 +35,8 @@ Clone the project
 ```bash
   CREATE DATABASE php_project_db;
   
+  USE php_project_db;
+  
   CREATE TABLE tUser (
     login VARCHAR(15),
     password VARCHAR(20) NOT NULL,
